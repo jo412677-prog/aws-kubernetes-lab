@@ -14,10 +14,10 @@ AWS 환경에서 kubeadm 기반 Kubernetes 클러스터 구축 과정을 정리�
   - Public-B  10.100.2.0/24
   - Private-B 10.100.20.0/24
 
-### 2. instance
+### 2. Instance
 <img width="1011" height="210" alt="image" src="https://github.com/user-attachments/assets/3b0784b9-81aa-4a0d-8071-5433b6720131" />
 
-### 3. security group
+### 3. Security Group
 참고 글) https://kubernetes.io/ko/docs/reference/networking/ports-and-protocols/
 
   - #### control-plane
