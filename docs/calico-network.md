@@ -21,6 +21,8 @@ vi custom-resources.yaml
 
 cidr: 192.168.0.0/16
 encapsulation: IPIPCrossSubnet # VXLANCrossSubnet -> IPIPCrossSubnet
+
+kubectl create -f custom-resources.yaml
 ```
 
 #### 3) 상태 확인
