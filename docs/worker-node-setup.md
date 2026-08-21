@@ -1,4 +1,4 @@
-# Worker Node Setup
+## Worker Node Setup
 
 Worker Node는 공통 노드 설정 완료 후 Control Plane에 Join합니다.
 
