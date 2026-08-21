@@ -30,8 +30,8 @@ AWS 환경에서 kubeadm 기반 Kubernetes 클러스터 구축 과정을 정리�
 
 Kubernetes 클러스터는 kubeadm 기반으로 구성했습니다.
 
-- Container Runtime: containerd
-- CNI: Calico
+- Container Runtime: containerd v2.3.4
+- CNI: Calico v3.32.1
 
 ### Setup
 1. [Common Node Setup](./docs/common-node-setup.md)
