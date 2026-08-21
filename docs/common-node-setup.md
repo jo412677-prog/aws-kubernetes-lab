@@ -1,4 +1,4 @@
-#### 1) iptables 브리지 트래픽 활성화
+#### 1) Kubernetes 네트워크 커널 설정
 ```bash
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
 overlay
