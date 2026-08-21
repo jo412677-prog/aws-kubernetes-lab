@@ -46,7 +46,7 @@ wget https://github.com/containernetworking/plugins/releases/download/v1.9.0/cni
 sudo tar Cxzvf /opt/cni/bin cni-plugins-linux-amd64-v1.9.0.tgz
 ```
 
-#### 7) containerd를 CNI 런타임을 사용하기 위한 설정
+#### 7) containerd 기본 설정 및 SystemdCgroup 활성화
 ```bash
 sudo mkdir -p /etc/containerd
 sudo containerd config default | sudo tee /etc/containerd/config.toml
