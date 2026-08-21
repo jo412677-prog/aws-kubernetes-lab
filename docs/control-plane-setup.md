@@ -2,7 +2,7 @@
 공통 설정:
 [Common Node Setup](./common-node-setup.md)
 
-#### 1). 노드 초기화
+#### 1) 노드 초기화
 ```bash
 sudo kubeadm init --pod-network-cidr=192.168.0.0/16
 ```
