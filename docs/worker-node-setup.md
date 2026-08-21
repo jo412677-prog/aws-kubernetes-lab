@@ -5,7 +5,7 @@ Worker Node는 공통 노드 설정 완료 후 Control Plane에 Join합니다.
 공통 설정:
 [Common Node Setup](./common-node-setup.md)
 
-#### 1) Worker Node Join
+#### 1) Worker-01 Node Join
 ```bash
 kubeadm join <CONTROL-PLANE-IP>:6443 \
   --token <TOKEN> \
@@ -14,3 +14,15 @@ kubeadm join <CONTROL-PLANE-IP>:6443 \
 
 #### 2) Cluster join 확인
 <img width="474" height="70" alt="image" src="https://github.com/user-attachments/assets/3cf0366f-3901-4b0b-b14e-102f308699df" />
+
+
+#### 3) Worker-02 Node Join
+```bash
+kubeadm join <CONTROL-PLANE-IP>:6443 \
+  --token <TOKEN> \
+  --discovery-token-ca-cert-hash sha256:<HASH>
+```
+#### 4) Cluster join 확인
+<img width="487" height="85" alt="image" src="https://github.com/user-attachments/assets/7b6a2b69-9200-41f4-a1a7-95f941dd75e8" />
+
+
