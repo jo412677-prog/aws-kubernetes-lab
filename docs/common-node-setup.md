@@ -21,7 +21,6 @@ sudo sysctl --system
 sudo swapoff -a
 ```
 #### 3) Container Runtime install
-Kubernetes 노드에서 사용할 Container Runtime으로 containerd를 구성했습니다. # containerd v2.3.4
 ```bash
 sudo apt-get update   
 wget https://github.com/containerd/containerd/releases/download/v2.3.4/containerd-2.3.4-linux-amd64.tar.gz
