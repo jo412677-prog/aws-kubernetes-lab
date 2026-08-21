@@ -1,4 +1,4 @@
-### Control-plane
+## Control-plane
 공통 설정:
 [Common Node Setup](./common-node-setup.md)
 
