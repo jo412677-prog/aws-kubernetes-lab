@@ -14,7 +14,10 @@ AWS 환경에서 kubeadm 기반 Kubernetes 클러스터 구축 과정을 정리�
   - Public-B  10.100.2.0/24
   - Private-B 10.100.20.0/24
 
-### 2. security group
+### 2. instance
+<img width="1011" height="210" alt="image" src="https://github.com/user-attachments/assets/3b0784b9-81aa-4a0d-8071-5433b6720131" />
+
+### 3. security group
 참고 글) https://kubernetes.io/ko/docs/reference/networking/ports-and-protocols/
 
   - #### control-plane
@@ -22,9 +25,6 @@ AWS 환경에서 kubeadm 기반 Kubernetes 클러스터 구축 과정을 정리�
    
   - #### worker
    <img width="1000" height="410" alt="image" src="https://github.com/user-attachments/assets/967be99f-0c4c-44d5-afc4-6ed31858618d" />
-
-### 3. instance
-  
 
 ## Kubernetes Cluster Setup
 
