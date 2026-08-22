@@ -61,7 +61,7 @@ kubectl apply -f deployments/service/nodeport.yaml
 <img width="735" height="52" alt="image" src="https://github.com/user-attachments/assets/9506dff5-ad66-4394-af83-af8dad10c176" />
 
 #### 6) Ingress 생성
-ingerss.yaml
+ingress.yaml
 ```bash
 apiVersion: networking.k8s.io/v1
 kind: Ingress
