@@ -24,8 +24,10 @@ AWS 환경에서 kubeadm 기반 Kubernetes 클러스터 구축 과정을 정리�
    <img width="1000" height="550" alt="image" src="https://github.com/user-attachments/assets/bee21d44-2150-4c84-ab1c-a87dfd976b2e" />
    
   - #### worker
-   <img width="1000" height="410" alt="image" src="https://github.com/user-attachments/assets/967be99f-0c4c-44d5-afc4-6ed31858618d" />
+  <img width="1260" height="677" alt="image" src="https://github.com/user-attachments/assets/c713f52b-2ed7-4df6-8886-58f6c37056a5" />
 
+  - #### ALB
+<img width="1240" height="227" alt="image" src="https://github.com/user-attachments/assets/a0523b20-126c-4a97-a6ca-0438307acafe" />
 ## Kubernetes Cluster Setup
 
 Kubernetes 클러스터는 kubeadm 기반으로 구성했습니다.
@@ -38,5 +40,5 @@ Kubernetes 클러스터는 kubeadm 기반으로 구성했습니다.
 2. [Control Plane Setup](./docs/control-plane-setup.md)
 3. [Worker Node Setup](./docs/worker-node-setup.md)
 4. [Calico Network Setup](./docs/calico-network.md)
-
+5. [Workload & Ingress](docs/workload-ingress.md)
 
