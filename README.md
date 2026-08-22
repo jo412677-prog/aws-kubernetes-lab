@@ -1,5 +1,5 @@
 # AWS-Kubernetes-Lab
-AWS 환경에서 kubeadm 기반 Kubernetes 클러스터 구축 과정을 정리한 실습 저장소
+AWS EC2 환경에 kubeadm으로 Kubernetes 클러스터 구축 및 ALB를 통한 외부 서비스 노출까지 구성한 실습 저장소
 
 <img width="1317" height="779" alt="Untitled" src="https://github.com/user-attachments/assets/f048553f-e6e4-4cca-a89a-d741cfc01427" />
 
