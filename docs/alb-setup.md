@@ -1,3 +1,14 @@
+## Target Group
+ALB의 HTTP 요청을 Kubernetes Worker Node의 NGINX Ingress Controller NodePort로 전달하도록 Target Group을 구성
+
+- Target type: Instances
+- Protocol: HTTP
+- Port: 31050
+- VPC: lab_vpc
+- Targets:
+  - worker-01
+  - worker-02
+
 ## ALB
 외부 HTTP 요청을 Kubernetes 클러스터로 전달하기 위해 Internet-facing Application Load Balancer를 구성
 
@@ -15,5 +26,3 @@ Security Group:
 
 Listener:
 - HTTP :80 → alb-tg
-
-
