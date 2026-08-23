@@ -38,7 +38,7 @@ kubectl expose deployment nginx --name nginx-svc --type ClusterIP --port 80 --ta
 
 #### 4) gateway 생성
 ```bash
-k create -f gateway.taml
+k create -f gateway.yaml
 ```
 <img width="413" height="63" alt="image" src="https://github.com/user-attachments/assets/25ba2061-e615-48e5-a6fb-4a4b7e31cd40" />
 
