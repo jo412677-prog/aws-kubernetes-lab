@@ -24,7 +24,8 @@ AWS EC2 환경에 kubeadm으로 Kubernetes 클러스터 구축 및 ALB를 통한
    <img width="1000" height="550" alt="image" src="https://github.com/user-attachments/assets/bee21d44-2150-4c84-ab1c-a87dfd976b2e" />
    
   - #### worker
-  <img width="1260" height="677" alt="image" src="https://github.com/user-attachments/assets/c713f52b-2ed7-4df6-8886-58f6c37056a5" />
+  <img width="1671" height="703" alt="image" src="https://github.com/user-attachments/assets/c09267f2-d20b-4655-b6b1-83de9a4e23d5" />
+
 
   - #### ALB
 <img width="1240" height="227" alt="image" src="https://github.com/user-attachments/assets/a0523b20-126c-4a97-a6ca-0438307acafe" />
@@ -40,6 +41,6 @@ Kubernetes 클러스터는 kubeadm 기반으로 구성했습니다.
 2. [Control Plane Setup](./docs/control-plane-setup.md)
 3. [Worker Node Setup](./docs/worker-node-setup.md)
 4. [Calico Network Setup](./docs/calico-network.md)
-5. [Workload & Ingress](docs/workload-ingress.md)
-6. [ALB](docs/alb-setup.md)
-
+5. [ALB](docs/alb-setup.md)
+6. [Ingress](docs/ingress/workload-ingress.md)
+7. [Gateway](docs/gateway/gateway,md])
