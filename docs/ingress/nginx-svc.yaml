@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2026-08-22T08:05:55Z"
+  labels:
+    app: nginx
+  name: nginx-svc
+  namespace: default
+  resourceVersion: "27567"
+  uid: cb8de61f-1947-4714-80d3-00b6ce03e316
+spec:
+  clusterIP: 10.97.56.57
+  clusterIPs:
+  - 10.97.56.57
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: nginx
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}
