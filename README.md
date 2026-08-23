@@ -40,4 +40,4 @@ Kubernetes 클러스터는 kubeadm 기반으로 구성했습니다.
 4. [Calico Network Setup](./docs/calico-network.md)
 5. [ALB](docs/alb-setup.md)
 6. [Ingress](docs/ingress/workload-ingress.md)
-7. [Gateway](docs/gateway/gateway,md])
+7. [Gateway](docs/gateway/gateway.md)
