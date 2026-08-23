@@ -86,14 +86,26 @@ k create -f ingress.yaml
 ```
 <img width="955" height="274" alt="image" src="https://github.com/user-attachments/assets/2c1bb92c-0cad-4441-9fbc-c2ed47f8ec89" />
 
+#### 7) AWS 구성
+##### target-group
+- Name: alb-tg
+- Protocol: HTTP
+- Port: 31050
+- Targets: worker-01, worker-02
 
-#### 7) Worker Security Group
+##### alb 
+- Name: k8s-ingress-alb
+- Subnets: Public-A, Public-B
+- Security Group: alb-sg
+- Listener: HTTP :80 → alb-tg
+
+#### 8) Worker Security Group
 ALB -> NGINX Ingress Controller NodePort(31050)
 - Protocol: TCP
 - Port: 31050
 - Source: ALB Security Group
 
-#### 8) External Access Test
+#### 9) External Access Test
 ```bash
 curl -H "Host: nginx.example.com" http://<ALB-DNS>
 
