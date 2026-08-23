@@ -1,6 +1,8 @@
 ## Workload & Ingress
 Kubernetes 클러스터에 웹 애플리케이션을 배포하고, Service와 Ingress Controller를 구성하여 AWS ALB를 통해 외부에서 접근할 수 있도록 구성
 
+<img width="1317" height="779" alt="Untitled" src="https://github.com/user-attachments/assets/f048553f-e6e4-4cca-a89a-d741cfc01427" />
+
 #### 1) Deployment
 ```bash
  k create deployment nginx --image nginx --replicas 2
