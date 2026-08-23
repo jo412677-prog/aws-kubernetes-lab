@@ -12,7 +12,7 @@ ALB의 HTTP 요청을 Kubernetes Worker Node의 NGINX Ingress Controller NodePor
 ## ALB
 외부 HTTP 요청을 Kubernetes 클러스터로 전달하기 위해 Internet-facing Application Load Balancer를 구성
 
-- Name: k8s-ingress-alb 
+- Name: ingress - k8s-ingress-alb, gateway - gateway-alb 
 - Scheme: Internet-facing
 - IP address type: IPv4
 - VPC: lab_vpc
