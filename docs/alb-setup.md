@@ -3,7 +3,7 @@ ALB의 HTTP 요청을 Kubernetes Worker Node의 NGINX Ingress Controller NodePor
 
 - Target type: Instances
 - Protocol: HTTP
-- Port: 31050
+- Port: ingress - 31050, gateway - 30512
 - VPC: lab_vpc
 - Targets:
   - worker-01
@@ -12,7 +12,7 @@ ALB의 HTTP 요청을 Kubernetes Worker Node의 NGINX Ingress Controller NodePor
 ## ALB
 외부 HTTP 요청을 Kubernetes 클러스터로 전달하기 위해 Internet-facing Application Load Balancer를 구성
 
-- Name: k8s-ingress-alb
+- Name: k8s-ingress-alb 
 - Scheme: Internet-facing
 - IP address type: IPv4
 - VPC: lab_vpc
@@ -25,4 +25,5 @@ Security Group:
 - alb-sg
 
 Listener:
-- HTTP :80 → alb-tg
+ingress - HTTP :80 → alb-tg 
+gateway - HTTP :80 → gateway-tg
