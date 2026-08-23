@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  creationTimestamp: "2026-08-22T08:06:05Z"
+  generation: 1
+  name: nginx-ingress
+  namespace: default
+  resourceVersion: "27599"
+  uid: 89c160df-3923-49c3-89b1-c9a2de2750d9
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: nginx.example.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: nginx-svc
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
+status:
+  loadBalancer: {}
