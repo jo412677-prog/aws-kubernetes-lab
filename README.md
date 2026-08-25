@@ -26,6 +26,7 @@ AWS EC2 환경에 kubeadm으로 Kubernetes 클러스터 구축 및 ALB를 통한
 
   - #### ALB
 <img width="1240" height="227" alt="image" src="https://github.com/user-attachments/assets/a0523b20-126c-4a97-a6ca-0438307acafe" />
+
 ## Kubernetes Cluster Setup
 
 Kubernetes 클러스터는 kubeadm 기반으로 구성했습니다.
